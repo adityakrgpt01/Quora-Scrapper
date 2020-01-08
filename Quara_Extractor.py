@@ -25,10 +25,10 @@ def login():
     driver.get('https://www.quora.com/')
     # driver.maximize_window()
     email= driver.find_element_by_xpath("//input[@name='email' and @class='text header_login_text_box ignore_interaction']")
-    email.send_keys('aniketgpt04@gmail.com')
+    email.send_keys('adityakrgpt01@gmail.com')
     
 
-    # email.send_keys('aniketgpt04@gmail.com')
+    # email.send_keys('adityakrgpt01@gmail.com')
     time.sleep(0.5)
 
     password=driver.find_element_by_xpath("//input[@name='password' and @class='text header_login_text_box ignore_interaction']")
